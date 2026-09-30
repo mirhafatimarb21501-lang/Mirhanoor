@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mirha Noor | Clothing Boutique</title>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:Georgia,serif;color:#3f2630;background:#fffaf9}
+header{background:#fff;position:sticky;top:0;z-index:10;box-shadow:0 2px 12px #00000012}
+.nav{max-width:1100px;margin:auto;padding:16px 22px;display:flex;justify-content:space-between;align-items:center}
+.logo{font-size:28px;color:#8d3f5d;font-weight:bold}
+nav a{margin-left:20px;text-decoration:none;color:#54343e;font-family:Arial,sans-serif;font-size:14px}
+.hero{min-height:520px;display:flex;align-items:center;justify-content:center;text-align:center;padding:70px 20px;background:linear-gradient(135deg,#f7e4e8,#fff8f5)}
+.hero h1{font-size:58px;color:#8d3f5d;margin-bottom:12px}
+.hero p{font-family:Arial,sans-serif;font-size:18px;color:#684850;margin-bottom:28px}
+.btn{display:inline-block;background:#8d3f5d;color:white;text-decoration:none;padding:13px 28px;border-radius:30px;font-family:Arial,sans-serif}
+section{max-width:1100px;margin:auto;padding:65px 22px}
+.title{text-align:center;font-size:34px;color:#8d3f5d;margin-bottom:10px}
+.sub{text-align:center;color:#76545d;font-family:Arial,sans-serif;margin-bottom:35px}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
+.card{background:white;border-radius:18px;overflow:hidden;box-shadow:0 5px 20px #5b263010;text-align:center}
+.pic{height:250px;display:flex;align-items:center;justify-content:center;font-size:65px;background:linear-gradient(145deg,#f4dce2,#fff2ed)}
+.card h3{padding:15px 10px 5px;font-size:21px}
+.card p{padding:0 10px 18px;font-family:Arial,sans-serif;color:#76545d;font-size:14px}
+.about{background:#f9ecef;border-radius:24px;text-align:center}
+.about p{max-width:700px;margin:15px auto 0;line-height:1.8;font-family:Arial,sans-serif;color:#654851}
+.contact{text-align:center}
+footer{background:#3f2630;color:#fff;text-align:center;padding:28px;font-family:Arial,sans-serif;font-size:14px}
+@media(max-width:700px){.grid{grid-template-columns:1fr}.hero h1{font-size:43px}nav a{margin-left:9px;font-size:12px}.logo{font-size:23px}}
+</style>
+</head>
+<body>
+<header>
+<div class="nav">
+<div class="logo">Mirha Noor</div>
+<nav><a href="#home">Home</a><a href="#collection">Collection</a><a href="#about">About</a><a href="#contact">Contact</a></nav>
+</div>
+</header>
+
+<main>
+<section class="hero" id="home">
+<div>
+<h1>Mirha Noor</h1>
+<p>Elegant Styles • Beautiful Details • Made With Love</p>
+<a class="btn" href="#collection">Explore Collection</a>
+</div>
+</section>
+
+<section id="collection">
+<h2 class="title">Our Collection</h2>
+<p class="sub">Beautiful outfits for every special moment</p>
+<div class="grid">
+<div class="card"><div class="pic">👗</div><h3>Women’s Collection</h3><p>Elegant dresses with a graceful boutique look.</p></div>
+<div class="card"><div class="pic">🌸</div><h3>Kids Collection</h3><p>Cute and comfortable styles for little girls.</p></div>
+<div class="card"><div class="pic">✨</div><h3>Festive Wear</h3><p>Special designs for weddings and celebrations.</p></div>
+</div>
+</section>
+
+<section id="about">
+<div class="about">
+<h2 class="title">About Mirha Noor</h2>
+<p>Welcome to Mirha Noor Boutique — a place for beautiful, feminine and stylish clothing. We believe every outfit should make you feel special.</p>
+</div>
+</section>
+
+<section class="contact" id="contact">
+<h2 class="title">Order & Contact</h2>
+<p class="sub">For orders and details, contact us on WhatsApp.</p>
+<a class="btn" href="https://wa.me/923000000000">WhatsApp Us</a>
+</section>
+</main>
+
+<footer>© 2026 Mirha Noor Boutique • All Rights Reserved</footer>
+</body>
+</html>
